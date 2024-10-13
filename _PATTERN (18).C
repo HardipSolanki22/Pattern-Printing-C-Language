@@ -1,0 +1,24 @@
+// pattern 5
+
+#include<stdio.h>
+int main()
+{
+ int i,j,n;
+ printf("Enter no of rows :");
+ scanf("%d",&n);
+ printf("\n");
+
+  for(i=1;i<=n;i++)
+   {
+     for(j=1;j<=n;j++)
+     {
+       printf("%c",j+64);
+      // printf("%c",i+64);
+      //printf("%c",j+96);
+      // printf("%c",i+96);
+      }
+      printf("\n");
+     }
+     return 0;
+ }
+
